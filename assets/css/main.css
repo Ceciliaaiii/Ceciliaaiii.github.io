@@ -43,6 +43,15 @@
   --background-color: #f4fafd;
   --surface-color: #ffffff;
 }
+.sidebar {
+    position: fixed;
+    width: 250px;
+    z-index: 10; /* 降低 z-index，確保內容顯示在上層 */
+}
+.content {
+    position: relative;
+    z-index: 100;
+}
 
 .dark-background {
   --background-color: #040b14;
